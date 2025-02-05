@@ -50,6 +50,7 @@ function create() {
     tartaruga = this.add.image(0,0,'tartaruga');
     tartaruga.setScale(0.5);
 
+    tartaruga.setFlip(true,false);
     peixinho.setFlip(true,false);
 
 }
